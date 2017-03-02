@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //让起始页晚一点消失
     //[NSThread sleepForTimeInterval:4];
-    // Override point for customization after application launch.
+    
     return YES;
 }
 

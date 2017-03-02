@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1DDE1F1E6803E9003B2BC1 /* Sample2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DDE1E1E6803E9003B2BC1 /* Sample2.m */; };
 		8A4725311E5ABD7B004050C5 /* MyFileViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4725301E5ABD7B004050C5 /* MyFileViewCtrl.m */; };
 		8A4725351E5ABEB7004050C5 /* MyFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4725341E5ABEB7004050C5 /* MyFileCell.m */; };
 		8A4C5E131E55E23A00E9C21B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C5E101E55E23A00E9C21B /* main.m */; };
 		8A4C5E141E55E23A00E9C21B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C5E121E55E23A00E9C21B /* ViewController.m */; };
 		8A4C5E171E55F8A500E9C21B /* MainTabViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C5E161E55F8A500E9C21B /* MainTabViewCtrl.m */; };
+		8A7EF47C1E6179DD007F8A1D /* TestViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7EF47B1E6179DD007F8A1D /* TestViewCtrl.m */; };
+		8A7EF47D1E617ACD007F8A1D /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACAEA131E5CAEA000F3A79B /* VideoToolbox.framework */; };
+		8A7EF47E1E617AE2007F8A1D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACAEA1B1E5CB06B00F3A79B /* AudioToolbox.framework */; };
 		8AA37AF61E5448F0001ECCDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA37AF51E5448F0001ECCDB /* AppDelegate.m */; };
 		8AA37AFC1E5448F0001ECCDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA37AFA1E5448F0001ECCDB /* Main.storyboard */; };
 		8AA37AFE1E5448F0001ECCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA37AFD1E5448F0001ECCDB /* Assets.xcassets */; };
@@ -51,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A1DDE1D1E6803E9003B2BC1 /* Sample2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample2.h; sourceTree = "<group>"; };
+		8A1DDE1E1E6803E9003B2BC1 /* Sample2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample2.m; sourceTree = "<group>"; };
 		8A47252F1E5ABD7B004050C5 /* MyFileViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFileViewCtrl.h; sourceTree = "<group>"; };
 		8A4725301E5ABD7B004050C5 /* MyFileViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFileViewCtrl.m; sourceTree = "<group>"; };
 		8A4725331E5ABEB7004050C5 /* MyFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFileCell.h; sourceTree = "<group>"; };
@@ -60,6 +66,8 @@
 		8A4C5E121E55E23A00E9C21B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = V_Player/Controllers/Main/ViewController.m; sourceTree = SOURCE_ROOT; };
 		8A4C5E151E55F8A500E9C21B /* MainTabViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTabViewCtrl.h; path = V_Player/Controllers/Main/MainTabViewCtrl.h; sourceTree = SOURCE_ROOT; };
 		8A4C5E161E55F8A500E9C21B /* MainTabViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTabViewCtrl.m; path = V_Player/Controllers/Main/MainTabViewCtrl.m; sourceTree = SOURCE_ROOT; };
+		8A7EF47A1E6179DD007F8A1D /* TestViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewCtrl.h; sourceTree = "<group>"; };
+		8A7EF47B1E6179DD007F8A1D /* TestViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewCtrl.m; sourceTree = "<group>"; };
 		8AA37AEE1E5448F0001ECCDB /* V_Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V_Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA37AF41E5448F0001ECCDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AA37AF51E5448F0001ECCDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -207,6 +215,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7EF47E1E617AE2007F8A1D /* AudioToolbox.framework in Frameworks */,
+				8A7EF47D1E617ACD007F8A1D /* VideoToolbox.framework in Frameworks */,
 				8ACAEB6D1E5CC1A600F3A79B /* AVFoundation.framework in Frameworks */,
 				8ACAEB6C1E5CC18000F3A79B /* CoreMedia.framework in Frameworks */,
 				8ACAEB661E5CBF7C00F3A79B /* libavfilter.a in Frameworks */,
@@ -298,6 +308,7 @@
 		8A4C5E0B1E55DC1A00E9C21B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8A7EF4791E6179C5007F8A1D /* Test */,
 				8A4C5E0F1E55DD2500E9C21B /* Main */,
 				8A4C5E0E1E55DCF000E9C21B /* Index */,
 				8A4C5E0C1E55DCD000E9C21B /* NetWork */,
@@ -340,6 +351,17 @@
 			);
 			name = Main;
 			path = MainTab;
+			sourceTree = "<group>";
+		};
+		8A7EF4791E6179C5007F8A1D /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				8A7EF47A1E6179DD007F8A1D /* TestViewCtrl.h */,
+				8A7EF47B1E6179DD007F8A1D /* TestViewCtrl.m */,
+				8A1DDE1D1E6803E9003B2BC1 /* Sample2.h */,
+				8A1DDE1E1E6803E9003B2BC1 /* Sample2.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		8AA37AE51E5448F0001ECCDB = {
@@ -783,10 +805,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1DDE1F1E6803E9003B2BC1 /* Sample2.m in Sources */,
 				8A4C5E171E55F8A500E9C21B /* MainTabViewCtrl.m in Sources */,
 				8A4725311E5ABD7B004050C5 /* MyFileViewCtrl.m in Sources */,
 				8A4C5E141E55E23A00E9C21B /* ViewController.m in Sources */,
 				8A4C5E131E55E23A00E9C21B /* main.m in Sources */,
+				8A7EF47C1E6179DD007F8A1D /* TestViewCtrl.m in Sources */,
 				8AA37AF61E5448F0001ECCDB /* AppDelegate.m in Sources */,
 				8A4725351E5ABEB7004050C5 /* MyFileCell.m in Sources */,
 			);
